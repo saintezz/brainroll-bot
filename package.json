@@ -1,0 +1,12 @@
+{
+  "name": "brainroll-bot",
+  "version": "1.0.0",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "debug": "^4.4.3",
+    "grammy": "^1.21.0"
+  }
+}
