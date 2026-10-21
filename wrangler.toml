@@ -1,0 +1,3 @@
+name = "brainroll-bot"
+main = "bot.js"
+compatibility_date = "2026-10-21"
