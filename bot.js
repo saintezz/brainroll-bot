@@ -1,3 +1,4 @@
+import { Bot, InlineKeyboard, webhookCallback } from "grammy";
 const { Bot, InlineKeyboard } = require('grammy');
 
 const BOT_TOKEN = '8420621745:AAEJtIy_Wd7t4_ThWvEkhyMf_QgksVU_BMw';
