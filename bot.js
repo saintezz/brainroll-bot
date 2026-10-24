@@ -6,11 +6,11 @@ const WEBAPP_URL = 'https://saintezz.github.io/BrainrotWin/';
 const bot = new Bot(BOT_TOKEN);
 
 bot.command('start', async (ctx) => {
-    const keyboard = new InlineKeyboard().webApp('🚀 ОТКРЫТЬ', WEBAPP_URL);
+    const keyboard = new InlineKeyboard().webApp('Открыть BrainrotRoll🎃', WEBAPP_URL);
 
     await ctx.reply(
-        '🎮 <b>ЛУЧШИЙ БРАИНРОТ БТ</b>\n\n' +
-        '👇 Нажми на кнопку ниже, чтобы открыть мини-приложение:',
+        ' <b>Празднуй хеллоуин вместе с BrainrotRoll🎃</b>\n\n' +
+        '👇 Играть в BrainrotRoll ',
         { parse_mode: 'HTML', reply_markup: keyboard }
     );
 });
@@ -21,5 +21,5 @@ bot.on('message', async (ctx) => {
 });
 
 bot.start({
-    onStart: (botInfo) => console.log(`✅ Бот @${botInfo.username} запущен`),
+    onStart: (botInfo) => console.log(`Бот @${botInfo.username} запущен: ДА`),
 });
